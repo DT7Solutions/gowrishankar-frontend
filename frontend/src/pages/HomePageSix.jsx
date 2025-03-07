@@ -11,7 +11,7 @@ import BlogAreaTwo from "../components/BlogAreaTwo";
 import SubscribeTwo from "../components/SubscribeTwo";
 import FooterAreaFour from "../components/FooterAreaFour";
 import Preloader from "../helper/Preloader";
-
+import ServiceAreaThree from "../components/ServiceAreaThree";
 const HomePageSix = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
@@ -30,9 +30,12 @@ const HomePageSix = () => {
       {/* Hero Six */}
       <HeroSix />
 
+     {/* search filters  */}
+     <ServiceAreaThree />
+
       {/* Category Area One */}
       <CategoryAreaOne />
-
+        
       {/* Product Area One */}
       <ProductAreaOne />
 
@@ -43,7 +46,7 @@ const HomePageSix = () => {
       <ProductAreaTwo />
 
       {/* Faq Area three */}
-      <FaqAreaThree />
+      {/* <FaqAreaThree /> */}
 
       {/* Client Area Four */}
       <ClientAreaFour />

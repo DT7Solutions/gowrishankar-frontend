@@ -32,7 +32,7 @@ const FooterAreaFour = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-xl-3">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Company</h3>
                 <div className="menu-all-pages-container">
@@ -53,7 +53,7 @@ const FooterAreaFour = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-xl-3">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Our Services</h3>
                 <div className="menu-all-pages-container">
@@ -77,7 +77,7 @@ const FooterAreaFour = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-xl-3">
               <div className="widget footer-widget">
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact2">
@@ -88,7 +88,7 @@ const FooterAreaFour = () => {
                     <div className="contact-grid-details">
                       <p>Address</p>
                       <h6>
-                        66 Broklyant, New York
+                         PLOT NO.381,PHASE 1&2,INDIRA AUTONAGAR ,, Guntur, Andhra Pradesh 522001
                         <p />
                       </h6>
                     </div>
@@ -100,7 +100,7 @@ const FooterAreaFour = () => {
                     <div className="contact-grid-details">
                       <p>Phone Number</p>
                       <h6>
-                        <Link to="tel:888123456765">012 345 678 9101</Link>
+                        <Link to="tel:888123456765">92480 22760</Link>
                         <p />
                       </h6>
                     </div>
@@ -130,7 +130,7 @@ const FooterAreaFour = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link to="#">GOWRISANKAR AGENCIES</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">

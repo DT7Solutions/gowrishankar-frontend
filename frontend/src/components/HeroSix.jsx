@@ -29,7 +29,7 @@ const HeroSix = () => {
         {/*==============================
         Intro Area  
         ==============================*/}
-        <div className="row gx-30 gy-30">
+        <div className="row gx-30 gy-30 mt-5">
           <div className="col-lg-4 col-md-6">
             <div
               className="hero-intro-card"

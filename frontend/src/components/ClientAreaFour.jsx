@@ -4,15 +4,15 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 const ClientAreaFour = () => {
   return (
-    <div className="client-area-3">
+    <div className="client-area-3 mt-5">
       <div className="container">
         <div className="row gx-80 gy-4">
-          <div className="col-lg-5">
+          <div className="col-lg-5"> 
             <div className="client3-wrap">
               <div className="title-area mb-0">
                 <span className="sub-title">Logo Brands &amp; Clients</span>
                 <h2 className="sec-title">
-                  Non leo libero amet the maecenas gravida
+                Brands we Trust
                 </h2>
                 <p className="sec-text">
                   A car repair is a service provided to fix any issues or

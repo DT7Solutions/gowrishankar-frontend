@@ -47,14 +47,14 @@ const HeaderFive = () => {
     setActive(!active);
   };
   return (
-    <header className="nav-header header-layout4">
-      <div className="header-top">
+    <header className="nav-header header-layout4" >
+      <div  className={`sticky-wrapper ${scroll && "sticky"} header-top`}>
         <div className="container">
           <div className="row justify-content-center justify-content-md-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Fixturbo" />
+                  <img src="assets/img/gowri-shankar-logo.png" alt="Fixturbo" className="main-logo"/>
                 </Link>
               </div>
             </div>
@@ -149,7 +149,7 @@ const HeaderFive = () => {
       </div>
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
-        <div className="menu-area">
+        {/* <div className="menu-area">
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-auto d-lg-none d-block">
@@ -466,7 +466,7 @@ const HeaderFive = () => {
             </div>
           </div>
           <div className="logo-bg" />
-        </div>
+        </div> */}
         {/* Mobile Menu */}
         <div className={`mobile-menu-wrapper  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
