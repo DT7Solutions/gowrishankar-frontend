@@ -26,7 +26,7 @@ import HomePageSix from "./pages/HomePageSix";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <RouteScrollToTop />
       <ScrollToTop smooth color="#E8092E" />
       <Routes>
@@ -52,7 +52,7 @@ function App() {
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
