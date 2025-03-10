@@ -11,8 +11,26 @@
 }
 .search-filters .service-form-wrap{
     background-color: #0068A5 !important;
+    
 }
 
 .search-btn{
     background-color: black !important;
+}
+.footer-layout4 {
+    padding-top: 0px !important;
+}
+.serarch-filter .col-lg-2 {
+    width: 21%;
+}
+.serarch-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serarch-filter{
+    margin-bottom: 30px;
+}
+.service-form-wrap h3{
+    color: white !important;
 }

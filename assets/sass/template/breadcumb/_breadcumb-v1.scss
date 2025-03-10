@@ -58,7 +58,7 @@
 
 .breadcumb-wrapper {
     background: $title-color;
-    padding: 297px 0 155px;
+    padding: 50px 0 55px;
     overflow: hidden;
     position: relative;
     z-index: auto;   
@@ -69,7 +69,7 @@
 }
 @include lg {
     .breadcumb-wrapper {
-        padding: 262px 0 120px;
+        padding: 50px 0 50px;
     }
 }
 @include md {
