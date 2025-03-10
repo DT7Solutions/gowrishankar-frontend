@@ -63,7 +63,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-1.png`}
                   alt="Fixturbo"
                 />
                 <span className="tag">
@@ -95,7 +95,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-2.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -123,7 +123,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-3.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-3.png`}
                   alt="Fixturbo"
                 />
                 <span className="tag">
@@ -154,7 +154,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-4.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-4.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -182,7 +182,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-5.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-5.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -210,7 +210,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-6.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-6.png`}
                   alt="Fixturbo"
                 />
                 <span className="tag">
@@ -242,7 +242,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-7.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-7.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -270,7 +270,7 @@ const ProductAreaOne = () => {
             <div className="product-card image-container">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-8.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-8.png`}
                   alt="Fixturbo"
                 />
                 <span className="tag">

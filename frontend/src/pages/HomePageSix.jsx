@@ -43,7 +43,7 @@ const HomePageSix = () => {
       <CTAAreaTwo />
 
       {/* Product Area Two */}
-      <ProductAreaTwo />
+      {/* <ProductAreaTwo /> */}
 
       {/* Faq Area three */}
       {/* <FaqAreaThree /> */}
@@ -57,7 +57,7 @@ const HomePageSix = () => {
       </div>
 
       {/* Subscribe Two */}
-      <SubscribeTwo />
+      {/* <SubscribeTwo /> */}
 
       {/* Footer Area Four */}
       <FooterAreaFour />

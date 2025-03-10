@@ -1,8 +1,9 @@
+
 {
-  "homepage": "https://DT7Solutions.github.io/gowrishankar-frontend",
+  "homepage": "https://DT7Solutions.github.io/gowrishankar-frontend/",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private":true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.2.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -28,11 +29,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

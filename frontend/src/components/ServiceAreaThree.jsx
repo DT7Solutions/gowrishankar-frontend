@@ -9,10 +9,10 @@ const ServiceAreaThree = () => {
         <div className="row gy-4 justify-content-center">
           <div className="col-xxl-12 col-xl-12">
             <div className="service-form-wrap">
-              <h3 className="text-light">Car Parts For Any Car</h3>
+              <h3 className="text-light text-center pb-4 pt-3">search Car Parts For Any Car</h3>
               <form className="default-form-wrap">
-                <div className="row">
-                  <div className="col-md-2">
+                <div className="row serarch-filter">
+                  <div className="col-md-3 col-lg-2">
                     <div className="form-group m-0">
                       <select
                         name="subject"
@@ -27,7 +27,7 @@ const ServiceAreaThree = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-md-2">
+                  <div className="col-md-3 col-lg-2">
                     <div className="form-group m-0">
                       <select
                         name="subject"
@@ -42,7 +42,7 @@ const ServiceAreaThree = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-md-2">
+                  <div className="col-md-2 col-lg-2">
                     <div className="form-group m-0">
                       <select
                         name="subject"
@@ -72,22 +72,8 @@ const ServiceAreaThree = () => {
                       </select>
                     </div>
                   </div>
-                  {/* <div className="col-md-2">
-                    <div className="form-group m-0">
-                      <select
-                        name="subject"
-                        id="subject"
-                        className="form-select"
-                        defaultValue={"Choose"}
-                      >
-                        <option value="Choose">Choose Location</option>
-                        <option value="Construction">California</option>
-                        <option value="Real Estate">New York</option>
-                        <option value="Industry">Abu Dhabi</option>
-                      </select>
-                    </div>
-                  </div> */}
-                  <div className="col-md-4">
+
+                  <div className="col-md-2">
                     <button type="submit" className="btn style2 m-0 w-100 search-btn">
                       Search Parts
                     </button>

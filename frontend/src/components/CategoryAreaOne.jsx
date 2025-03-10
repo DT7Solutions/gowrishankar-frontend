@@ -4,7 +4,8 @@ import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
 import { Link } from "react-router-dom";
 const CategoryAreaOne = () => {
   return (
-    <div className="category-area-1 pt-95 pb-100">
+    // pt-95
+    <div className="category-area-1 pb-100">
       <div className="container">
         <h4 className="text-center fw-extrabold mb-20">Featured categories</h4>
         <div className="row gx-0 global-carousel category-slider3">
@@ -43,7 +44,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-1.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-1.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -57,7 +58,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-2.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-2.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -71,7 +72,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-3.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-3.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -85,7 +86,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-4.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-4.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -99,7 +100,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-5.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-5.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -113,7 +114,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-6.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-6.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -127,7 +128,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-7.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-7.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -141,7 +142,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-8.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-8.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -155,7 +156,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-1.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-1.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -169,7 +170,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-2.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-2.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -183,7 +184,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-3.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-3.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -197,7 +198,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-4.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-4.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -211,7 +212,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-5.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-5.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -225,7 +226,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-6.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-6.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -239,7 +240,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-7.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-7.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">
@@ -253,7 +254,7 @@ const CategoryAreaOne = () => {
               <div>
                 <div className="category-card-item">
                   <img
-                    src="assets/img/update-img/category/category1-8.png"
+                    src={`${process.env.PUBLIC_URL}/assets/img/update-img/category/category1-8.png`}
                     alt="Fixturbo"
                   />
                   <h6 className="category-card-title">

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "../components/HeaderOne";
+import HeaderFive from "../components/HeaderFive";
 
-import FooterAreaOne from "../components/FooterAreaOne";
+import FooterAreaFour from "../components/FooterAreaFour";
 import Breadcrumb from "../components/Breadcrumb";
 import SubscribeOne from "../components/SubscribeOne";
 import Cart from "../components/Cart";
@@ -20,7 +20,7 @@ const CartPage = () => {
       {active === true && <Preloader />}
 
       {/* Header one */}
-      <HeaderOne />
+      <HeaderFive />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Cart"} />
@@ -29,10 +29,10 @@ const CartPage = () => {
       <Cart />
 
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* <SubscribeOne /> */}
 
       {/* Footer Area One */}
-      <FooterAreaOne />
+      <FooterAreaFour />
     </>
   );
 };

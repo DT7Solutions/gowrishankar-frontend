@@ -64,7 +64,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-1.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-1.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -76,7 +76,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-2.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-2.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -88,7 +88,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-3.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-3.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -100,7 +100,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-4.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-4.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -112,7 +112,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-5.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-5.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -124,7 +124,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-6.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-6.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -136,7 +136,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-7.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-7.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -184,7 +184,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-8.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-8.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -196,7 +196,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-9.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-9.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -208,7 +208,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-10.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-10.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -220,7 +220,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-11.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-11.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -232,7 +232,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-12.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-12.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -244,7 +244,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-13.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-13.png`}
                             alt="Fixturbo"
                           />
                         </Link>
@@ -256,7 +256,7 @@ const ClientAreaFour = () => {
                       <div className="client-logo">
                         <Link to="/">
                           <img
-                            src="assets/img/update-img/client/1-14.png"
+                            src={`${process.env.PUBLIC_URL}/assets/img/update-img/client/1-14.png`}
                             alt="Fixturbo"
                           />
                         </Link>

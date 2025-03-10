@@ -54,7 +54,7 @@ const HeaderFive = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/gowri-shankar-logo.png" alt="Fixturbo" className="main-logo"/>
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/gowri-shankar-logo.png`} alt="Fixturbo" className="main-logo"/>
                 </Link>
               </div>
             </div>
@@ -111,7 +111,7 @@ const HeaderFive = () => {
                     </div>
                   </li>
                   <li>
-                    <Link to="#" className="simple-icon">
+                    <Link to="/wishlist" className="simple-icon">
                       <i className="far fa-heart" />
                       <span className="badge">1</span>
                     </Link>
@@ -119,7 +119,7 @@ const HeaderFive = () => {
                   <li>
                     <div className="header-grid-wrap">
                       <div className="simple-icon">
-                        <Link to="#">
+                        <Link to="/cart">
                           <svg
                             width={27}
                             height={24}
