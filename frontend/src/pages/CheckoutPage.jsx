@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "../components/HeaderOne";
+import HeaderFour from "../components/HeaderFour";
 
-import FooterAreaOne from "../components/FooterAreaOne";
+import FooterAreaFour from "../components/FooterAreaFour";
 import Breadcrumb from "../components/Breadcrumb";
 import SubscribeOne from "../components/SubscribeOne";
 import Checkout from "../components/Checkout";
@@ -20,7 +20,7 @@ const CheckoutPage = () => {
       {active === true && <Preloader />}
 
       {/* Header one */}
-      <HeaderOne />
+      <HeaderFour />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Checkout"} />
@@ -29,10 +29,10 @@ const CheckoutPage = () => {
       <Checkout />
 
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* <SubscribeOne /> */}
 
       {/* Footer Area One */}
-      <FooterAreaOne />
+      <FooterAreaFour />
     </>
   );
 };
