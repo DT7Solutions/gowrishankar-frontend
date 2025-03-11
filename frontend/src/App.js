@@ -24,6 +24,9 @@ import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
 
+import LoginPage  from "./pages/LoginPage";
+import RegisterPage  from "./pages/RegisterPage";
+
 function App() {
   return (
     <Router>
@@ -51,6 +54,8 @@ function App() {
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/Login" element={<LoginPage />} />
+        <Route exact path="/Register" element={<RegisterPage />} />
       </Routes>
     </Router>
   );

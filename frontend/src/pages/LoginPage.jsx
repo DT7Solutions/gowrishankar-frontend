@@ -4,7 +4,7 @@ import HeaderFive from "../components/HeaderFive";
 import FooterAreaFour from "../components/FooterAreaFour";
 import Breadcrumb from "../components/Breadcrumb";
 import SubscribeOne from "../components/SubscribeOne";
-import Cart from "../components/Cart";
+import LogIn from "../components/LogIn";
 import Preloader from "../helper/Preloader";
 
 const LoginPage = () => {
@@ -26,7 +26,7 @@ const LoginPage = () => {
       {/* <Breadcrumb title={"Cart"} /> */}
 
       {/* Cart */}
-      <Cart />
+      <LogIn />
 
       {/* Subscribe One */}
       {/* <SubscribeOne /> */}
