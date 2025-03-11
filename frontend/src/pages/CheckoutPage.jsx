@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HeaderFour from "../components/HeaderFour";
+import HeaderFive from "../components/HeaderFive";
 
 import FooterAreaFour from "../components/FooterAreaFour";
 import Breadcrumb from "../components/Breadcrumb";
@@ -20,7 +20,7 @@ const CheckoutPage = () => {
       {active === true && <Preloader />}
 
       {/* Header one */}
-      <HeaderFour />
+      <HeaderFive />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Checkout"} />

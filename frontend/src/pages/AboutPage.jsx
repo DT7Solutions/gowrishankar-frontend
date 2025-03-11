@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "../components/HeaderOne";
+// import HeaderOne from "../components/HeaderOne";
 
 import FooterAreaOne from "../components/FooterAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
 import AboutTwo from "../components/AboutTwo";
-import ProcessAreaOne from "../components/ProcessAreaOne";
+
 import CTAAreaOne from "../components/CTAAreaOne";
 import TestimonialOne from "../components/TestimonialOne";
 import SubscribeOne from "../components/SubscribeOne";
-import TeamAreaTwo from "../components/TeamAreaTwo";
+// import TeamAreaTwo from "../components/TeamAreaTwo";
 import Preloader from "../helper/Preloader";
 
 const AboutPage = () => {
@@ -24,7 +24,7 @@ const AboutPage = () => {
       {active === true && <Preloader />}
 
       {/* Header one */}
-      <HeaderOne />
+      {/* <HeaderOne /> */}
 
       {/* Breadcrumb */}
       <Breadcrumb title={"About Us"} />
@@ -33,8 +33,7 @@ const AboutPage = () => {
       <AboutTwo />
 
       {/* Process Area One */}
-      <ProcessAreaOne />
-
+ 
       {/* CTA Area One */}
       <CTAAreaOne />
 
@@ -42,7 +41,7 @@ const AboutPage = () => {
       <TestimonialOne />
 
       {/* Team Area Two */}
-      <TeamAreaTwo />
+      {/* <TeamAreaTwo /> */}
 
       {/* Subscribe One */}
       <SubscribeOne />

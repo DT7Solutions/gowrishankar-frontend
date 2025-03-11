@@ -132,7 +132,7 @@ const HeaderFive = () => {
                               fill="#1B1F22"
                             />
                           </svg>
-                          <span className="badge">1</span>
+                          <span className="badge">3</span>
                         </Link>
                       </div>
                       <div className="header-grid-details">

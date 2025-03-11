@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "../components/HeaderOne";
+import HeaderFive from "../components/HeaderFive";
 import FooterAreaOne from "../components/FooterAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
 import SubscribeOne from "../components/SubscribeOne";
@@ -18,8 +18,8 @@ const BlogDetailsPage = () => {
       {/* Preloader */}
       {active === true && <Preloader />}
 
-      {/* Header one */}
-      <HeaderOne />
+      Header one
+      <HeaderFive />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Blog Details"} />
