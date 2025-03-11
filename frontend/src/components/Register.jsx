@@ -47,7 +47,7 @@ const Register = () => {
                                     />
                                 </div>
                                 <div className="mb-3">
-                                    <label className="form-label">Username</label>
+                                    <label className="form-label">Email</label>
                                     <input
                                         type="email"
                                         className="form-control"
@@ -58,7 +58,7 @@ const Register = () => {
                                     />
                                 </div>
                                 <div className="mb-3">
-                                    <label className="form-label">Username</label>
+                                    <label className="form-label">Phone Number</label>
                                     <input
                                         type="number"
                                         className="form-control"
