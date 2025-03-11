@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProductAreaTwo = () => {
   return (
-    <div className="product-area-2 space-top overflow-hidden">
+    <div className="product-area-2 space-top1 overflow-hidden">
       <div className="container">
         <div className="mb-50">
           <div className="row gy-4 justify-content-lg-between justify-content-center align-items-center text-lg-start text-center">
@@ -26,7 +26,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-1.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -54,7 +54,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-2.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -82,7 +82,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-3.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-3.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -110,7 +110,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-4.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-4.png`}
                   alt="Fixturbo"
                 />
               </div>
@@ -138,7 +138,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-5.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-5.png`}
                   alt="Fixturbo"
                 />
                 <span className="tag">
@@ -169,7 +169,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="assets/img/update-img/product/1-6.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/update-img/product/1-6.png`}
                   alt="Fixturbo"
                 />
               </div>

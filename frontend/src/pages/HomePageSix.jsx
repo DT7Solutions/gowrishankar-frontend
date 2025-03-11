@@ -12,6 +12,7 @@ import SubscribeTwo from "../components/SubscribeTwo";
 import FooterAreaFour from "../components/FooterAreaFour";
 import Preloader from "../helper/Preloader";
 import ServiceAreaThree from "../components/ServiceAreaThree";
+import TestimonialOne from "../components/TestimonialOne";
 const HomePageSix = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
@@ -37,19 +38,21 @@ const HomePageSix = () => {
       <CategoryAreaOne />
         
       {/* Product Area One */}
-      <ProductAreaOne />
+      <ProductAreaTwo />
+      {/* <ProductAreaOne /> */}
 
       {/* CTA Area Two */}
-      <CTAAreaTwo />
+      {/* <CTAAreaTwo /> */}
 
       {/* Product Area Two */}
-      {/* <ProductAreaTwo /> */}
+   
 
       {/* Faq Area three */}
-      {/* <FaqAreaThree /> */}
+      <FaqAreaThree />
 
       {/* Client Area Four */}
       <ClientAreaFour />
+      <TestimonialOne />
 
       {/* Blog Area Two */}
       <div className="space-top">

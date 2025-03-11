@@ -7,7 +7,7 @@ const CategoryAreaOne = () => {
     // pt-95
     <div className="category-area-1 pb-100">
       <div className="container">
-        <h4 className="text-center fw-extrabold mb-20">Featured categories</h4>
+        <h4 className="text-center fw-extrabold mb-20">Search By Categories</h4>
         <div className="row gx-0 global-carousel category-slider3">
           <Swiper
             navigation={{
