@@ -89,7 +89,7 @@ const Register = () => {
                                     </div>
                                 </div>
                                 <div className="mb-3 position-relative">
-                                    <label className="form-label">Password</label>
+                                    <label className="form-label">Confirm Password</label>
                                     <div className="input-group password-input">
                                         <input
                                             type={showPassword ? "text" : "password"}
