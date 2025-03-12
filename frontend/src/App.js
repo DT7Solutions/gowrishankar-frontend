@@ -17,6 +17,8 @@ import ContactPage from "./pages/ContactPage";
 import HomePageSix from "./pages/HomePageSix";
 import LoginPage  from "./pages/LoginPage";
 import RegisterPage  from "./pages/RegisterPage";
+// import DashboardPage from "./pages/dashboard-pages/MainPage" 
+import DashboardPage  from "./pages/dashboard-pages/MainPage";
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
         <Route exact path="/contact" element={<ContactPage />} />
         <Route exact path="/Login" element={<LoginPage />} />
         <Route exact path="/Register" element={<RegisterPage />} />
+        <Route exact path="/Dashboard" element={<DashboardPage />} />
       </Routes>
     </Router>
   );
