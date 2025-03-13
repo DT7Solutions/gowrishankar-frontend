@@ -19,6 +19,7 @@ import LoginPage  from "./pages/LoginPage";
 import RegisterPage  from "./pages/RegisterPage";
 // import DashboardPage from "./pages/dashboard-pages/MainPage" 
 import DashboardPage  from "./pages/dashboard-pages/MainPage";
+import AdminPage from "./pages/dashboard-pages/AdminPage"
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route exact path="/Login" element={<LoginPage />} />
         <Route exact path="/Register" element={<RegisterPage />} />
         <Route exact path="/Dashboard" element={<DashboardPage />} />
+        <Route exact path="/Dashboard2" element={<AdminPage />} />
       </Routes>
     </Router>
   );
