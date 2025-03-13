@@ -5,7 +5,7 @@ import { Dropdown, OverlayTrigger, Tooltip } from "react-bootstrap";
 const Navbar = () => {
     const [showDropdown, setShowDropdown] = useState(false);
     return (
-        <nav className="navbar navbar-light bg-light px-3 d-flex justify-content-between">
+        <nav className="navbar navbar-light bg-light px-3 d-flex justify-content-between dashboard-navbar">
           <h5>Dashboard</h5>
           <Dropdown
             onMouseEnter={() => setShowDropdown(true)}
@@ -14,6 +14,7 @@ const Navbar = () => {
           >
             <Dropdown.Toggle
               id="dropdown-basic"
+              className="user-profile-icon"
               style={{
                 backgroundColor: 'transparent',
                 border: 'none',

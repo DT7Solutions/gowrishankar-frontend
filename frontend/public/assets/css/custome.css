@@ -84,3 +84,9 @@
    
     color: rgb(243, 240, 240) !important;
 }
+
+@media screen and (max-width: 768px) {
+    .login-screen .container {
+        width: 100% !important;
+    }
+}
