@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gowrishankar-frontend/static/css/main.c7163349.css",
-    "main.js": "/gowrishankar-frontend/static/js/main.5a2483d2.js",
+    "main.css": "/gowrishankar-frontend/static/css/main.2757b2b8.css",
+    "main.js": "/gowrishankar-frontend/static/js/main.f003dc64.js",
     "static/js/453.ed3810f9.chunk.js": "/gowrishankar-frontend/static/js/453.ed3810f9.chunk.js",
     "static/media/process-arrow-1-1.svg": "/gowrishankar-frontend/static/media/process-arrow-1-1.02447a6a9e687b66f879.svg",
     "static/media/process-arrow-1-2.svg": "/gowrishankar-frontend/static/media/process-arrow-1-2.c8a328b4d349246f314d.svg",
     "index.html": "/gowrishankar-frontend/index.html",
-    "main.c7163349.css.map": "/gowrishankar-frontend/static/css/main.c7163349.css.map",
-    "main.5a2483d2.js.map": "/gowrishankar-frontend/static/js/main.5a2483d2.js.map",
+    "main.2757b2b8.css.map": "/gowrishankar-frontend/static/css/main.2757b2b8.css.map",
+    "main.f003dc64.js.map": "/gowrishankar-frontend/static/js/main.f003dc64.js.map",
     "453.ed3810f9.chunk.js.map": "/gowrishankar-frontend/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7163349.css",
-    "static/js/main.5a2483d2.js"
+    "static/css/main.2757b2b8.css",
+    "static/js/main.f003dc64.js"
   ]
 }
