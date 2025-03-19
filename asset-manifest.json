@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/GSA-frontend/static/css/main.dd838282.css",
+    "main.js": "/GSA-frontend/static/js/main.1882ccda.js",
+    "static/js/453.ed3810f9.chunk.js": "/GSA-frontend/static/js/453.ed3810f9.chunk.js",
+    "static/media/process-arrow-1-1.svg": "/GSA-frontend/static/media/process-arrow-1-1.02447a6a9e687b66f879.svg",
+    "static/media/process-arrow-1-2.svg": "/GSA-frontend/static/media/process-arrow-1-2.c8a328b4d349246f314d.svg",
+    "index.html": "/GSA-frontend/index.html",
+    "main.dd838282.css.map": "/GSA-frontend/static/css/main.dd838282.css.map",
+    "main.1882ccda.js.map": "/GSA-frontend/static/js/main.1882ccda.js.map",
+    "453.ed3810f9.chunk.js.map": "/GSA-frontend/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd838282.css",
+    "static/js/main.1882ccda.js"
+  ]
+}
